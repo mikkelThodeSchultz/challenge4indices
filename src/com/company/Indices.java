@@ -10,6 +10,7 @@ public class Indices {
             replacementString = replacementString + "a";
         }
         if (replacementString.equals(pattern)) {
+            replacementString = "";
             for (int i = 0; i < pattern.length(); i++) {
                 replacementString = replacementString + "b";
             }
